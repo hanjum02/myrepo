@@ -27,5 +27,5 @@
 # How to Run the Code
 - To run the code, ensure that each necessary file is downloaded to your system (like the SRRs obtained from Step 1 as well as the sleuth.r R script required to run
   differential expression analysis), and more specifically, to your current directory where you are running the code from. Then, be sure to run the code by using the command line to 
-  call python followed by the path to where the PipelineProject script is located and then finally including the name of the directory where you would like the results stored. Example:
-        example_user:~$ python "PathtoPipelineCode/PipelineCode.py" Output_Directory
+  call python followed by the path to where the PipelineProject script is located and then finally including the full path and name of the directory where you would like the results stored. Otherwise, if you just list the name of the directory it will form a directory in your current working directory and place the results of the code there. Example:
+        example_user:~$ python "PathtoPipelineCode/PipelineCode.py" /FullPathtoOutput_Directory/Output_Directory
